@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fa fa icons link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- fa fa style css link  -->
+    <link rel="stylesheet" href="style.css">
+    <title>ChatGPT</title>
+</head>
+<body>
+    
+    <section class="header" id="home">
+            <nav>
+
+                <div class="logo">
+                    Somedia
+                </div>
+
+                <div class="navbar"> 
+                    <ul id="list">
+                        <li><a href="#home" onclick="Toggle()">Home</a></li>
+                        <li><a href="#about" onclick="Toggle()">About</a></li>
+                        <li><a href="#services" onclick="Toggle()">Services</a></li>
+                        <li><a href="#contact" onclick="Toggle()">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="fa fa-bars" id="bar" onclick="Toggle()">
+
+                </div>
+
+            </nav>
+
+            <div class="header-text">
+                <h1>Social Media Agency</h1>
+                <p>A social media agency provides marketing, advertising, design, or influencer partnership services for platforms like Facebook, Instagram, and LinkedIn on a one-time or ongoing basis.</p>
+                <button>Get in Touch</button>
+            </div>
+    </section>
+
+    <!-- Our Services  -->
+    <section class="services" id="services">
+        <div class="title">Our Services</div>
+        <div class="services-box">
+            <div class="services-box-item">
+                <img src="./images/person_1.jpg" alt="services person img">
+                <h1>Social Media Marketing</h1>
+                <p>Social media is digital technology that allows the sharing of ideas and information,  through virtual networks and communities.</p>
+            </div>
+            <div class="services-box-item">
+                <img src="./images/person_2.jpg" alt="services person img">
+                <h1>Influencer Marketing</h1>
+                <p>Social media is digital technology that allows the sharing of ideas and information,  through virtual networks and communities.</p>
+            </div>
+            <div class="services-box-item">
+                <img src="./images/person_3.jpg" alt="services person img">
+                <h1>Brand Awareness</h1>
+                <p>Social media is digital technology that allows the sharing of ideas and information,  through virtual networks and communities.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Our Services  -->
+
+    <!-- About  -->
+    <section class="about" id="about">
+        <div class="title">About Us</div>
+        <div class="about-description">
+            Social media refers to the means of interactions among people in which they create, share, and/or exchange information and ideas in virtual communities and networks. The Office of Communications and Marketing manages the main Facebook, Twitter, Instagram, LinkedIn and YouTube accounts.
+        </div>
+        <div class="about-img">
+            <img src="./images/about.jpg" alt="About">
+        </div>
+    </section>
+    <!-- About  -->
+
+    <!-- Contact  -->
+    <section class="contact" id="contact">
+        <div class="title">Get in Touch</div>
+        <div class="about-description">
+            Social media has given us a way to connect with people you have never met offline; those from our past we never would have been able to before; meet others from around the world that we wouldn’t otherwise; and even keep in touch with those in our lives we’d like to see more, but don’t have the time to.
+        </div>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea cols="30"  placeholder="Your Message"></textarea>
+            <button class="form-btn">Submit</button>
+        </form>
+    </section>
+    <!-- Contact  -->
+    <!-- Footer  -->
+<section class="footer">
+    <div class="footer-text">Copyright &copy; StartUp Company 2023</div>
+</section>
+    <!-- Footer  -->
+
+    <script src="script.js"></script>
+</body>
+</html>
